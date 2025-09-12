@@ -1,0 +1,26 @@
+--- Insurance Claim for Patient: Lakshmi Iyer (UHID: HSP0018) ---
+Policy No: POL-919994920   Insurer: HDFC Ergo TPA   Type: Reimbursement
+Hospital: Unidoc Multi Speciality Hospital (NABH: NABH-XXXX-2025)
+Admission: 2025-08-25  |  Discharge: 2025-09-14
+Hospitalization Reason: NICU - Prematurity Care - P07.30
+
+--- Diagnosis & Procedures ---
+P07.30 : NICU - Prematurity Care by Dr. S. Sharma on 2025-09-04
+
+--- Itemized Bill (Authorized Amounts) ---
+Consultation/Nursing: 22,321.92 (Approved: 22,321.92)
+Investigations: 18,601.60 (Approved: 18,601.60)
+NICU Bed/Monitoring: 102,308.80 (Approved: 102,308.80)
+Pharmacy & Consumables: 33,482.88 (Approved: 33,482.88)
+Procedures/Lines: 9,300.80 (Approved: 9,300.80)
+
+--- Claim Summary ---
+Bill Subtotal: 186,016.00
+GST (5%): 9,300.80
+Discount: 5,000.00
+Total Claimed: 190,316.80
+Amount Paid by Patient: 50,000.00
+Original Amount Claimed from Insurer: 190,316.80
+Authorized Amount Claimed from Insurer: 186,016.00
+Balance Due from Insurer: 136,016.00
+Pre-Auth Status: Approved

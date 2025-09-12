@@ -1,0 +1,28 @@
+--- Insurance Claim for Patient: Kiran Iyer (UHID: HSP0020) ---
+Policy No: POL-161012773   Insurer: Paramount   Type: Reimbursement
+Hospital: Unidoc Multi Speciality Hospital (NABH: NABH-XXXX-2025)
+Admission: 2025-07-08  |  Discharge: 2025-07-14
+Hospitalization Reason: Total Abdominal Hysterectomy (TAH) - N85.8
+
+--- Diagnosis & Procedures ---
+N85.8 : Total Abdominal Hysterectomy (TAH) by Dr. A. Khan on 2025-07-11
+
+--- Itemized Bill (Authorized Amounts) ---
+Anesthesia: 9,895.41 (Partial: 7,916.33)
+Investigations: 11,309.04 (Approved: 11,309.04)
+Miscellaneous: 14,136.30 (Approved: 14,136.30)
+Nursing: 8,481.78 (Approved: 8,481.78)
+OT/Procedure: 49,477.05 (Approved: 49,477.05)
+Pharmacy & Consumables: 31,099.86 (Approved: 31,099.86)
+Room Rent: 16,963.56 (Partial: 13,570.85)
+
+--- Claim Summary ---
+Bill Subtotal: 141,363.00
+GST (5%): 7,068.15
+Discount: 20,000.00
+Total Claimed: 128,431.15
+Amount Paid by Patient: 0.00
+Original Amount Claimed from Insurer: 128,431.15
+Authorized Amount Claimed from Insurer: 135,991.21
+Balance Due from Insurer: 135,991.21
+Pre-Auth Status: Partial

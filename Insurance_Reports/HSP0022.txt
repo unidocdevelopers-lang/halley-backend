@@ -1,0 +1,27 @@
+--- Insurance Claim for Patient: Pooja Mehta (UHID: HSP0022) ---
+Policy No: POL-818840243   Insurer: FHPL   Type: Cashless
+Hospital: Unidoc Multi Speciality Hospital (NABH: NABH-XXXX-2025)
+Admission: 2025-07-26  |  Discharge: 2025-07-31
+Hospitalization Reason: Hip Replacement (THR) - M16.10
+
+--- Diagnosis & Procedures ---
+M16.10 : Hip Replacement (THR) by Dr. M. Patel on 2025-07-28
+
+--- Itemized Bill (Authorized Amounts) ---
+Anesthesia: 18,360.64 (Approved: 18,360.64)
+Implants/Prosthesis: 57,377.00 (Approved: 57,377.00)
+Investigations: 9,180.32 (Approved: 9,180.32)
+OT: 34,426.20 (Approved: 34,426.20)
+Pharmacy & Consumables: 6,885.24 (Approved: 6,885.24)
+Surgery: 103,278.60 (Approved: 103,278.60)
+
+--- Claim Summary ---
+Bill Subtotal: 229,508.00
+GST (5%): 11,475.40
+Discount: 5,000.00
+Total Claimed: 235,983.40
+Amount Paid by Patient: 100,000.00
+Original Amount Claimed from Insurer: 235,983.40
+Authorized Amount Claimed from Insurer: 229,508.00
+Balance Due from Insurer: 129,508.00
+Pre-Auth Status: Approved

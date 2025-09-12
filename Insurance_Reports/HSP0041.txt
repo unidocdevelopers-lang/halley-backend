@@ -1,0 +1,27 @@
+--- Insurance Claim for Patient: Suresh Chopra (UHID: HSP0041) ---
+Policy No: nan   Insurer: nan   Type: Self-pay
+Hospital: Unidoc Multi Speciality Hospital (NABH: NABH-XXXX-2025)
+Admission: 2025-07-04  |  Discharge: 2025-07-06
+Hospitalization Reason: Angioplasty (PTCA) with Stent - I21.9
+
+--- Diagnosis & Procedures ---
+I21.9 : Angioplasty (PTCA) with Stent by Dr. L. Nair on 2025-07-05
+
+--- Itemized Bill (Authorized Amounts) ---
+Anesthesia: 14,593.50 (Approved: 14,593.50)
+ICU: 29,187.00 (Partial: 23,349.60)
+Investigations: 17,025.75 (Approved: 17,025.75)
+OT/Cath Lab: 43,780.50 (Partial: 35,024.40)
+Pharmacy & Consumables: 17,025.75 (Approved: 17,025.75)
+Surgery/Procedure: 121,612.50 (Approved: 121,612.50)
+
+--- Claim Summary ---
+Bill Subtotal: 243,225.00
+GST (5%): 12,161.25
+Discount: 5,000.00
+Total Claimed: 250,386.25
+Amount Paid by Patient: 250,386.25
+Original Amount Claimed from Insurer: 0.00
+Authorized Amount Claimed from Insurer: 228,631.50
+Balance Due from Insurer: -21,754.75
+Pre-Auth Status: Partial

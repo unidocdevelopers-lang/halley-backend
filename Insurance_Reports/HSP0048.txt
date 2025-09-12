@@ -1,0 +1,27 @@
+--- Insurance Claim for Patient: Ritika Desai (UHID: HSP0048) ---
+Policy No: POL-422497587   Insurer: HDFC Ergo TPA   Type: Cashless
+Hospital: Unidoc Multi Speciality Hospital (NABH: NABH-XXXX-2025)
+Admission: 2025-08-15  |  Discharge: 2025-08-24
+Hospitalization Reason: Stroke (Medical Management) - I63.9
+
+--- Diagnosis & Procedures ---
+I63.9 : Stroke (Medical Management) by Dr. L. Nair on 2025-08-19
+
+--- Itemized Bill (Authorized Amounts) ---
+Investigations: 15,960.36 (Approved: 15,960.36)
+Miscellaneous: 7,980.18 (Approved: 7,980.18)
+Nursing: 9,310.21 (Approved: 9,310.21)
+Pharmacy & Consumables: 29,260.66 (Approved: 29,260.66)
+Procedure/Treatment: 46,551.05 (Approved: 46,551.05)
+Room Rent: 23,940.54 (Partial: 19,152.43)
+
+--- Claim Summary ---
+Bill Subtotal: 133,003.00
+GST (5%): 6,650.15
+Discount: 20,000.00
+Total Claimed: 119,653.15
+Amount Paid by Patient: 0.00
+Original Amount Claimed from Insurer: 119,653.15
+Authorized Amount Claimed from Insurer: 128,214.89
+Balance Due from Insurer: 128,214.89
+Pre-Auth Status: Partial

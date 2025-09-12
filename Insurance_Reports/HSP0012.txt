@@ -1,0 +1,28 @@
+--- Insurance Claim for Patient: Zoya Iyer (UHID: HSP0012) ---
+Policy No: POL-209723116   Insurer: FHPL   Type: Cashless
+Hospital: Unidoc Multi Speciality Hospital (NABH: NABH-XXXX-2025)
+Admission: 2025-08-24  |  Discharge: 2025-08-26
+Hospitalization Reason: Normal Delivery - O80
+
+--- Diagnosis & Procedures ---
+O80 : Normal Delivery by Dr. S. Sharma on 2025-08-25
+
+--- Itemized Bill (Authorized Amounts) ---
+Anesthesia: 3,901.87 (Approved: 3,901.87)
+Investigations: 4,459.28 (Approved: 4,459.28)
+Miscellaneous: 5,574.10 (Approved: 5,574.10)
+Nursing: 3,344.46 (Approved: 3,344.46)
+OT/Procedure: 19,509.35 (Approved: 19,509.35)
+Pharmacy & Consumables: 12,263.02 (Approved: 12,263.02)
+Room Rent: 6,688.92 (Partial: 5,351.14)
+
+--- Claim Summary ---
+Bill Subtotal: 55,741.00
+GST (5%): 2,787.05
+Discount: 20,000.00
+Total Claimed: 38,528.05
+Amount Paid by Patient: 50,000.00
+Original Amount Claimed from Insurer: 38,528.05
+Authorized Amount Claimed from Insurer: 54,403.22
+Balance Due from Insurer: 4,403.22
+Pre-Auth Status: Partial

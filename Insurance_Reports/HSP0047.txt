@@ -1,0 +1,27 @@
+--- Insurance Claim for Patient: Zoya Shah (UHID: HSP0047) ---
+Policy No: nan   Insurer: nan   Type: Self-pay
+Hospital: Unidoc Multi Speciality Hospital (NABH: NABH-XXXX-2025)
+Admission: 2025-07-16  |  Discharge: 2025-07-23
+Hospitalization Reason: Cochlear Implant (Unilateral) - H90.3
+
+--- Diagnosis & Procedures ---
+H90.3 : Cochlear Implant (Unilateral) by Dr. L. Nair on 2025-07-19
+
+--- Itemized Bill (Authorized Amounts) ---
+Investigations: 81,712.56 (Approved: 81,712.56)
+Miscellaneous: 40,856.28 (Approved: 40,856.28)
+Nursing: 47,665.66 (Approved: 47,665.66)
+Pharmacy & Consumables: 149,806.36 (Approved: 149,806.36)
+Procedure/Treatment: 238,328.30 (Approved: 238,328.30)
+Room Rent: 122,568.84 (Partial: 98,055.07)
+
+--- Claim Summary ---
+Bill Subtotal: 680,938.00
+GST (5%): 34,046.90
+Discount: 5,000.00
+Total Claimed: 709,984.90
+Amount Paid by Patient: 709,984.90
+Original Amount Claimed from Insurer: 0.00
+Authorized Amount Claimed from Insurer: 656,424.23
+Balance Due from Insurer: -53,560.67
+Pre-Auth Status: Partial

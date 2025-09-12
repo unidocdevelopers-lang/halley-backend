@@ -1,0 +1,27 @@
+--- Insurance Claim for Patient: Yusuf Joshi (UHID: HSP0043) ---
+Policy No: POL-423020508   Insurer: Star Health TPA   Type: Reimbursement
+Hospital: Unidoc Multi Speciality Hospital (NABH: NABH-XXXX-2025)
+Admission: 2025-07-19  |  Discharge: 2025-07-23
+Hospitalization Reason: LSCS (C-Section) - O82
+
+--- Diagnosis & Procedures ---
+O82 : LSCS (C-Section) by Dr. S. Sharma on 2025-07-21
+
+--- Itemized Bill (Authorized Amounts) ---
+Investigations: 14,211.96 (Approved: 14,211.96)
+Miscellaneous: 7,105.98 (Approved: 7,105.98)
+Nursing: 8,290.31 (Approved: 8,290.31)
+Pharmacy & Consumables: 26,055.26 (Approved: 26,055.26)
+Procedure/Treatment: 41,451.55 (Approved: 41,451.55)
+Room Rent: 21,317.94 (Partial: 17,054.35)
+
+--- Claim Summary ---
+Bill Subtotal: 118,433.00
+GST (5%): 5,921.65
+Discount: 10,000.00
+Total Claimed: 114,354.65
+Amount Paid by Patient: 100,000.00
+Original Amount Claimed from Insurer: 114,354.65
+Authorized Amount Claimed from Insurer: 114,169.41
+Balance Due from Insurer: 14,169.41
+Pre-Auth Status: Partial

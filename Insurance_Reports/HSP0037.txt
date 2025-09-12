@@ -1,0 +1,27 @@
+--- Insurance Claim for Patient: Yusuf Desai (UHID: HSP0037) ---
+Policy No: POL-923742263   Insurer: MediAssist   Type: Reimbursement
+Hospital: Unidoc Multi Speciality Hospital (NABH: NABH-XXXX-2025)
+Admission: 2025-08-13  |  Discharge: 2025-08-17
+Hospitalization Reason: Dengue Fever Management - A97.9
+
+--- Diagnosis & Procedures ---
+A97.9 : Dengue Fever Management by Dr. S. Sharma on 2025-08-15
+
+--- Itemized Bill (Authorized Amounts) ---
+Investigations: 10,062.12 (Approved: 10,062.12)
+Miscellaneous: 5,031.06 (Approved: 5,031.06)
+Nursing: 5,869.57 (Approved: 5,869.57)
+Pharmacy & Consumables: 18,447.22 (Approved: 18,447.22)
+Procedure/Treatment: 29,347.85 (Approved: 29,347.85)
+Room Rent: 15,093.18 (Partial: 12,074.54)
+
+--- Claim Summary ---
+Bill Subtotal: 83,851.00
+GST (5%): 4,192.55
+Discount: 10,000.00
+Total Claimed: 78,043.55
+Amount Paid by Patient: 100,000.00
+Original Amount Claimed from Insurer: 78,043.55
+Authorized Amount Claimed from Insurer: 80,832.36
+Balance Due from Insurer: -19,167.64
+Pre-Auth Status: Partial

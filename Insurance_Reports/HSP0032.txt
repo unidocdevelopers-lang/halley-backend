@@ -1,0 +1,27 @@
+--- Insurance Claim for Patient: Vikram Dutta (UHID: HSP0032) ---
+Policy No: POL-776102887   Insurer: Paramount   Type: Cashless
+Hospital: Unidoc Multi Speciality Hospital (NABH: NABH-XXXX-2025)
+Admission: 2025-07-10  |  Discharge: 2025-07-12
+Hospitalization Reason: Laparoscopic Cholecystectomy - K80.20
+
+--- Diagnosis & Procedures ---
+K80.20 : Laparoscopic Cholecystectomy by Dr. A. Khan on 2025-07-11
+
+--- Itemized Bill (Authorized Amounts) ---
+Investigations: 11,127.60 (Approved: 11,127.60)
+Miscellaneous: 5,563.80 (Approved: 5,563.80)
+Nursing: 6,491.10 (Approved: 6,491.10)
+Pharmacy & Consumables: 20,400.60 (Approved: 20,400.60)
+Procedure/Treatment: 32,455.50 (Approved: 32,455.50)
+Room Rent: 16,691.40 (Partial: 13,353.12)
+
+--- Claim Summary ---
+Bill Subtotal: 92,730.00
+GST (5%): 4,636.50
+Discount: 20,000.00
+Total Claimed: 77,366.50
+Amount Paid by Patient: 0.00
+Original Amount Claimed from Insurer: 77,366.50
+Authorized Amount Claimed from Insurer: 89,391.72
+Balance Due from Insurer: 89,391.72
+Pre-Auth Status: Partial

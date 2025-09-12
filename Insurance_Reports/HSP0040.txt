@@ -1,0 +1,27 @@
+--- Insurance Claim for Patient: Meena Dutta (UHID: HSP0040) ---
+Policy No: POL-169768902   Insurer: Star Health TPA   Type: Cashless
+Hospital: Unidoc Multi Speciality Hospital (NABH: NABH-XXXX-2025)
+Admission: 2025-08-23  |  Discharge: 2025-08-26
+Hospitalization Reason: Angioplasty (PTCA) with Stent - I21.9
+
+--- Diagnosis & Procedures ---
+I21.9 : Angioplasty (PTCA) with Stent by Dr. L. Nair on 2025-08-24
+
+--- Itemized Bill (Authorized Amounts) ---
+Anesthesia: 11,139.36 (Approved: 11,139.36)
+ICU: 22,278.72 (Partial: 17,822.98)
+Investigations: 12,995.92 (Approved: 12,995.92)
+OT/Cath Lab: 33,418.08 (Approved: 33,418.08)
+Pharmacy & Consumables: 12,995.92 (Approved: 12,995.92)
+Surgery/Procedure: 92,828.00 (Approved: 92,828.00)
+
+--- Claim Summary ---
+Bill Subtotal: 185,656.00
+GST (5%): 9,282.80
+Discount: 0.00
+Total Claimed: 194,938.80
+Amount Paid by Patient: 50,000.00
+Original Amount Claimed from Insurer: 194,938.80
+Authorized Amount Claimed from Insurer: 181,200.26
+Balance Due from Insurer: 131,200.26
+Pre-Auth Status: Partial

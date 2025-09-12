@@ -1,0 +1,27 @@
+--- Insurance Claim for Patient: Anita Desai (UHID: HSP0010) ---
+Policy No: POL-617031191   Insurer: Star Health TPA   Type: Cashless
+Hospital: Unidoc Multi Speciality Hospital (NABH: NABH-XXXX-2025)
+Admission: 2025-08-27  |  Discharge: 2025-08-31
+Hospitalization Reason: TURP - N40.1
+
+--- Diagnosis & Procedures ---
+N40.1 : TURP by Dr. R. Iyer on 2025-08-29
+
+--- Itemized Bill (Authorized Amounts) ---
+Investigations: 13,885.68 (Approved: 13,885.68)
+Miscellaneous: 6,942.84 (Approved: 6,942.84)
+Nursing: 8,099.98 (Approved: 8,099.98)
+Pharmacy & Consumables: 25,457.08 (Approved: 25,457.08)
+Procedure/Treatment: 40,499.90 (Approved: 40,499.90)
+Room Rent: 20,828.52 (Partial: 16,662.82)
+
+--- Claim Summary ---
+Bill Subtotal: 115,714.00
+GST (5%): 5,785.70
+Discount: 20,000.00
+Total Claimed: 101,499.70
+Amount Paid by Patient: 100,000.00
+Original Amount Claimed from Insurer: 101,499.70
+Authorized Amount Claimed from Insurer: 111,548.30
+Balance Due from Insurer: 11,548.30
+Pre-Auth Status: Partial

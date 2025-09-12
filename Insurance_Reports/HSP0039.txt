@@ -1,0 +1,27 @@
+--- Insurance Claim for Patient: Suresh Verma (UHID: HSP0039) ---
+Policy No: POL-880806558   Insurer: Paramount   Type: Cashless
+Hospital: Unidoc Multi Speciality Hospital (NABH: NABH-XXXX-2025)
+Admission: 2025-07-26  |  Discharge: 2025-07-31
+Hospitalization Reason: Seizure Evaluation & Management - G40.909
+
+--- Diagnosis & Procedures ---
+G40.909 : Seizure Evaluation & Management by Dr. L. Nair on 2025-07-28
+
+--- Itemized Bill (Authorized Amounts) ---
+Investigations: 7,228.20 (Approved: 7,228.20)
+Miscellaneous: 3,614.10 (Approved: 3,614.10)
+Nursing: 4,216.45 (Approved: 4,216.45)
+Pharmacy & Consumables: 13,251.70 (Approved: 13,251.70)
+Procedure/Treatment: 21,082.25 (Approved: 21,082.25)
+Room Rent: 10,842.30 (Partial: 8,673.84)
+
+--- Claim Summary ---
+Bill Subtotal: 60,235.00
+GST (5%): 3,011.75
+Discount: 20,000.00
+Total Claimed: 43,246.75
+Amount Paid by Patient: 100,000.00
+Original Amount Claimed from Insurer: 43,246.75
+Authorized Amount Claimed from Insurer: 58,066.54
+Balance Due from Insurer: -41,933.46
+Pre-Auth Status: Partial

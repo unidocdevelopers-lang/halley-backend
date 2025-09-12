@@ -1,0 +1,27 @@
+--- Insurance Claim for Patient: Tanvi Joshi (UHID: HSP0011) ---
+Policy No: POL-175500775   Insurer: Paramount   Type: Reimbursement
+Hospital: Unidoc Multi Speciality Hospital (NABH: NABH-XXXX-2025)
+Admission: 2025-07-01  |  Discharge: 2025-07-04
+Hospitalization Reason: Community Acquired Pneumonia - J18.9
+
+--- Diagnosis & Procedures ---
+J18.9 : Community Acquired Pneumonia by Dr. P. Reddy on 2025-07-02
+
+--- Itemized Bill (Authorized Amounts) ---
+Investigations: 11,420.04 (Approved: 11,420.04)
+Miscellaneous: 5,710.02 (Approved: 5,710.02)
+Nursing: 6,661.69 (Approved: 6,661.69)
+Pharmacy & Consumables: 20,936.74 (Approved: 20,936.74)
+Procedure/Treatment: 33,308.45 (Approved: 33,308.45)
+Room Rent: 17,130.06 (Partial: 13,704.05)
+
+--- Claim Summary ---
+Bill Subtotal: 95,167.00
+GST (5%): 4,758.35
+Discount: 0.00
+Total Claimed: 99,925.35
+Amount Paid by Patient: 50,000.00
+Original Amount Claimed from Insurer: 99,925.35
+Authorized Amount Claimed from Insurer: 91,740.99
+Balance Due from Insurer: 41,740.99
+Pre-Auth Status: Partial

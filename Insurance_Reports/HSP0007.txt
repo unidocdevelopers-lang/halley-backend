@@ -1,0 +1,26 @@
+--- Insurance Claim for Patient: Anita Desai (UHID: HSP0007) ---
+Policy No: POL-225730654   Insurer: Star Health TPA   Type: Cashless
+Hospital: Unidoc Multi Speciality Hospital (NABH: NABH-XXXX-2025)
+Admission: 2025-08-26  |  Discharge: 2025-09-08
+Hospitalization Reason: Neonatal Sepsis Management - P36.9
+
+--- Diagnosis & Procedures ---
+P36.9 : Neonatal Sepsis Management by Dr. A. Khan on 2025-09-01
+
+--- Itemized Bill (Authorized Amounts) ---
+Consultation/Nursing: 17,509.68 (Approved: 17,509.68)
+Investigations: 14,591.40 (Approved: 14,591.40)
+NICU Bed/Monitoring: 80,252.70 (Approved: 80,252.70)
+Pharmacy & Consumables: 26,264.52 (Approved: 26,264.52)
+Procedures/Lines: 7,295.70 (Approved: 7,295.70)
+
+--- Claim Summary ---
+Bill Subtotal: 145,914.00
+GST (5%): 7,295.70
+Discount: 20,000.00
+Total Claimed: 133,209.70
+Amount Paid by Patient: 50,000.00
+Original Amount Claimed from Insurer: 133,209.70
+Authorized Amount Claimed from Insurer: 145,914.00
+Balance Due from Insurer: 95,914.00
+Pre-Auth Status: Approved

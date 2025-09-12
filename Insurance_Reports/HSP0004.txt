@@ -1,0 +1,27 @@
+--- Insurance Claim for Patient: Vikram Dutta (UHID: HSP0004) ---
+Policy No: POL-850539557   Insurer: Paramount   Type: Reimbursement
+Hospital: Unidoc Multi Speciality Hospital (NABH: NABH-XXXX-2025)
+Admission: 2025-07-30  |  Discharge: 2025-08-03
+Hospitalization Reason: Seizure Evaluation & Management - G40.909
+
+--- Diagnosis & Procedures ---
+G40.909 : Seizure Evaluation & Management by Dr. V. Kapoor on 2025-08-01
+
+--- Itemized Bill (Authorized Amounts) ---
+Investigations: 10,043.52 (Approved: 10,043.52)
+Miscellaneous: 5,021.76 (Approved: 5,021.76)
+Nursing: 5,858.72 (Approved: 5,858.72)
+Pharmacy & Consumables: 18,413.12 (Approved: 18,413.12)
+Procedure/Treatment: 29,293.60 (Approved: 29,293.60)
+Room Rent: 15,065.28 (Partial: 12,052.22)
+
+--- Claim Summary ---
+Bill Subtotal: 83,696.00
+GST (5%): 4,184.80
+Discount: 10,000.00
+Total Claimed: 77,880.80
+Amount Paid by Patient: 20,000.00
+Original Amount Claimed from Insurer: 77,880.80
+Authorized Amount Claimed from Insurer: 80,682.94
+Balance Due from Insurer: 60,682.94
+Pre-Auth Status: Partial

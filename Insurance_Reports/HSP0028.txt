@@ -1,0 +1,27 @@
+--- Insurance Claim for Patient: Neha Bose (UHID: HSP0028) ---
+Policy No: POL-691684493   Insurer: Paramount   Type: Reimbursement
+Hospital: Unidoc Multi Speciality Hospital (NABH: NABH-XXXX-2025)
+Admission: 2025-08-21  |  Discharge: 2025-08-28
+Hospitalization Reason: Hip Replacement (THR) - M16.10
+
+--- Diagnosis & Procedures ---
+M16.10 : Hip Replacement (THR) by Dr. V. Kapoor on 2025-08-24
+
+--- Itemized Bill (Authorized Amounts) ---
+Anesthesia: 17,987.44 (Approved: 17,987.44)
+Implants/Prosthesis: 56,210.75 (Approved: 56,210.75)
+Investigations: 8,993.72 (Approved: 8,993.72)
+OT: 33,726.45 (Approved: 33,726.45)
+Pharmacy & Consumables: 6,745.29 (Approved: 6,745.29)
+Surgery: 101,179.35 (Approved: 101,179.35)
+
+--- Claim Summary ---
+Bill Subtotal: 224,843.00
+GST (5%): 11,242.15
+Discount: 0.00
+Total Claimed: 236,085.15
+Amount Paid by Patient: 0.00
+Original Amount Claimed from Insurer: 236,085.15
+Authorized Amount Claimed from Insurer: 224,843.00
+Balance Due from Insurer: 224,843.00
+Pre-Auth Status: Approved

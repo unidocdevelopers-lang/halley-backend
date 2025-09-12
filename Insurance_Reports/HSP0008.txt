@@ -1,0 +1,27 @@
+--- Insurance Claim for Patient: Hemant Reddy (UHID: HSP0008) ---
+Policy No: POL-690793751   Insurer: FHPL   Type: Reimbursement
+Hospital: Unidoc Multi Speciality Hospital (NABH: NABH-XXXX-2025)
+Admission: 2025-07-11  |  Discharge: 2025-07-14
+Hospitalization Reason: LSCS (C-Section) - O82
+
+--- Diagnosis & Procedures ---
+O82 : LSCS (C-Section) by Dr. R. Iyer on 2025-07-12
+
+--- Itemized Bill (Authorized Amounts) ---
+Investigations: 12,720.96 (Approved: 12,720.96)
+Miscellaneous: 6,360.48 (Approved: 6,360.48)
+Nursing: 7,420.56 (Approved: 7,420.56)
+Pharmacy & Consumables: 23,321.76 (Approved: 23,321.76)
+Procedure/Treatment: 37,102.80 (Approved: 37,102.80)
+Room Rent: 19,081.44 (Partial: 15,265.15)
+
+--- Claim Summary ---
+Bill Subtotal: 106,008.00
+GST (5%): 5,300.40
+Discount: 10,000.00
+Total Claimed: 101,308.40
+Amount Paid by Patient: 20,000.00
+Original Amount Claimed from Insurer: 101,308.40
+Authorized Amount Claimed from Insurer: 102,191.71
+Balance Due from Insurer: 82,191.71
+Pre-Auth Status: Partial

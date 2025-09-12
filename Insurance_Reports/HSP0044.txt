@@ -1,0 +1,27 @@
+--- Insurance Claim for Patient: Yusuf Singh (UHID: HSP0044) ---
+Policy No: POL-287577427   Insurer: FHPL   Type: Cashless
+Hospital: Unidoc Multi Speciality Hospital (NABH: NABH-XXXX-2025)
+Admission: 2025-07-29  |  Discharge: 2025-08-03
+Hospitalization Reason: Cochlear Implant (Unilateral) - H90.3
+
+--- Diagnosis & Procedures ---
+H90.3 : Cochlear Implant (Unilateral) by Dr. M. Patel on 2025-07-31
+
+--- Itemized Bill (Authorized Amounts) ---
+Investigations: 98,891.04 (Approved: 98,891.04)
+Miscellaneous: 49,445.52 (Approved: 49,445.52)
+Nursing: 57,686.44 (Approved: 57,686.44)
+Pharmacy & Consumables: 181,300.24 (Approved: 181,300.24)
+Procedure/Treatment: 288,432.20 (Partial: 230,745.76)
+Room Rent: 148,336.56 (Partial: 118,669.25)
+
+--- Claim Summary ---
+Bill Subtotal: 824,092.00
+GST (5%): 41,204.60
+Discount: 5,000.00
+Total Claimed: 860,296.60
+Amount Paid by Patient: 20,000.00
+Original Amount Claimed from Insurer: 860,296.60
+Authorized Amount Claimed from Insurer: 736,738.25
+Balance Due from Insurer: 716,738.25
+Pre-Auth Status: Partial

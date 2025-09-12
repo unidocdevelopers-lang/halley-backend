@@ -1,0 +1,27 @@
+--- Insurance Claim for Patient: Deepak Rao (UHID: HSP0013) ---
+Policy No: POL-380370306   Insurer: HDFC Ergo TPA   Type: Reimbursement
+Hospital: Unidoc Multi Speciality Hospital (NABH: NABH-XXXX-2025)
+Admission: 2025-08-14  |  Discharge: 2025-08-19
+Hospitalization Reason: Cochlear Implant (Unilateral) - H90.3
+
+--- Diagnosis & Procedures ---
+H90.3 : Cochlear Implant (Unilateral) by Dr. P. Reddy on 2025-08-16
+
+--- Itemized Bill (Authorized Amounts) ---
+Investigations: 105,225.72 (Approved: 105,225.72)
+Miscellaneous: 52,612.86 (Approved: 52,612.86)
+Nursing: 61,381.67 (Approved: 61,381.67)
+Pharmacy & Consumables: 192,913.82 (Approved: 192,913.82)
+Procedure/Treatment: 306,908.35 (Approved: 306,908.35)
+Room Rent: 157,838.58 (Partial: 126,270.86)
+
+--- Claim Summary ---
+Bill Subtotal: 876,881.00
+GST (5%): 43,844.05
+Discount: 10,000.00
+Total Claimed: 910,725.05
+Amount Paid by Patient: 0.00
+Original Amount Claimed from Insurer: 910,725.05
+Authorized Amount Claimed from Insurer: 845,313.28
+Balance Due from Insurer: 845,313.28
+Pre-Auth Status: Partial

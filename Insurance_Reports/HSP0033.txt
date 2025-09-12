@@ -1,0 +1,28 @@
+--- Insurance Claim for Patient: Arjun Chopra (UHID: HSP0033) ---
+Policy No: POL-972113422   Insurer: HDFC Ergo TPA   Type: Reimbursement
+Hospital: Unidoc Multi Speciality Hospital (NABH: NABH-XXXX-2025)
+Admission: 2025-08-16  |  Discharge: 2025-08-19
+Hospitalization Reason: Normal Delivery - O80
+
+--- Diagnosis & Procedures ---
+O80 : Normal Delivery by Dr. L. Nair on 2025-08-17
+
+--- Itemized Bill (Authorized Amounts) ---
+Anesthesia: 3,132.01 (Approved: 3,132.01)
+Investigations: 3,579.44 (Approved: 3,579.44)
+Miscellaneous: 4,474.30 (Approved: 4,474.30)
+Nursing: 2,684.58 (Approved: 2,684.58)
+OT/Procedure: 15,660.05 (Approved: 15,660.05)
+Pharmacy & Consumables: 9,843.46 (Approved: 9,843.46)
+Room Rent: 5,369.16 (Partial: 4,295.33)
+
+--- Claim Summary ---
+Bill Subtotal: 44,743.00
+GST (5%): 2,237.15
+Discount: 0.00
+Total Claimed: 46,980.15
+Amount Paid by Patient: 100,000.00
+Original Amount Claimed from Insurer: 46,980.15
+Authorized Amount Claimed from Insurer: 43,669.17
+Balance Due from Insurer: -56,330.83
+Pre-Auth Status: Partial

@@ -1,0 +1,28 @@
+--- Insurance Claim for Patient: Lakshmi Reddy (UHID: HSP0023) ---
+Policy No: POL-653626718   Insurer: Star Health TPA   Type: Reimbursement
+Hospital: Unidoc Multi Speciality Hospital (NABH: NABH-XXXX-2025)
+Admission: 2025-07-26  |  Discharge: 2025-07-28
+Hospitalization Reason: Normal Delivery - O80
+
+--- Diagnosis & Procedures ---
+O80 : Normal Delivery by Dr. S. Sharma on 2025-07-27
+
+--- Itemized Bill (Authorized Amounts) ---
+Anesthesia: 4,331.81 (Approved: 4,331.81)
+Investigations: 4,950.64 (Approved: 4,950.64)
+Miscellaneous: 6,188.30 (Approved: 6,188.30)
+Nursing: 3,712.98 (Approved: 3,712.98)
+OT/Procedure: 21,659.05 (Approved: 21,659.05)
+Pharmacy & Consumables: 13,614.26 (Approved: 13,614.26)
+Room Rent: 7,425.96 (Partial: 5,940.77)
+
+--- Claim Summary ---
+Bill Subtotal: 61,883.00
+GST (5%): 3,094.15
+Discount: 5,000.00
+Total Claimed: 59,977.15
+Amount Paid by Patient: 20,000.00
+Original Amount Claimed from Insurer: 59,977.15
+Authorized Amount Claimed from Insurer: 60,397.81
+Balance Due from Insurer: 40,397.81
+Pre-Auth Status: Partial

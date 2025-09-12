@@ -1,0 +1,27 @@
+--- Insurance Claim for Patient: Anita Reddy (UHID: HSP0046) ---
+Policy No: POL-123418862   Insurer: Paramount   Type: Reimbursement
+Hospital: Unidoc Multi Speciality Hospital (NABH: NABH-XXXX-2025)
+Admission: 2025-07-25  |  Discharge: 2025-07-27
+Hospitalization Reason: Laparoscopic Cholecystectomy - K80.20
+
+--- Diagnosis & Procedures ---
+K80.20 : Laparoscopic Cholecystectomy by Dr. S. Sharma on 2025-07-26
+
+--- Itemized Bill (Authorized Amounts) ---
+Investigations: 14,306.28 (Approved: 14,306.28)
+Miscellaneous: 7,153.14 (Approved: 7,153.14)
+Nursing: 8,345.33 (Approved: 8,345.33)
+Pharmacy & Consumables: 26,228.18 (Approved: 26,228.18)
+Procedure/Treatment: 41,726.65 (Approved: 41,726.65)
+Room Rent: 21,459.42 (Partial: 17,167.54)
+
+--- Claim Summary ---
+Bill Subtotal: 119,219.00
+GST (5%): 5,960.95
+Discount: 20,000.00
+Total Claimed: 105,179.95
+Amount Paid by Patient: 50,000.00
+Original Amount Claimed from Insurer: 105,179.95
+Authorized Amount Claimed from Insurer: 114,927.12
+Balance Due from Insurer: 64,927.12
+Pre-Auth Status: Partial

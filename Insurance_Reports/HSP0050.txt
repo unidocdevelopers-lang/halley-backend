@@ -1,0 +1,28 @@
+--- Insurance Claim for Patient: Hemant Reddy (UHID: HSP0050) ---
+Policy No: POL-136611830   Insurer: FHPL   Type: Cashless
+Hospital: Unidoc Multi Speciality Hospital (NABH: NABH-XXXX-2025)
+Admission: 2025-07-27  |  Discharge: 2025-08-02
+Hospitalization Reason: Total Abdominal Hysterectomy (TAH) - N85.8
+
+--- Diagnosis & Procedures ---
+N85.8 : Total Abdominal Hysterectomy (TAH) by Dr. S. Sharma on 2025-07-30
+
+--- Itemized Bill (Authorized Amounts) ---
+Anesthesia: 9,445.17 (Approved: 9,445.17)
+Investigations: 10,794.48 (Approved: 10,794.48)
+Miscellaneous: 13,493.10 (Approved: 13,493.10)
+Nursing: 8,095.86 (Approved: 8,095.86)
+OT/Procedure: 47,225.85 (Approved: 47,225.85)
+Pharmacy & Consumables: 29,684.82 (Approved: 29,684.82)
+Room Rent: 16,191.72 (Partial: 12,953.38)
+
+--- Claim Summary ---
+Bill Subtotal: 134,931.00
+GST (5%): 6,746.55
+Discount: 20,000.00
+Total Claimed: 121,677.55
+Amount Paid by Patient: 50,000.00
+Original Amount Claimed from Insurer: 121,677.55
+Authorized Amount Claimed from Insurer: 131,692.66
+Balance Due from Insurer: 81,692.66
+Pre-Auth Status: Partial

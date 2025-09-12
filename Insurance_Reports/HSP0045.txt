@@ -1,0 +1,27 @@
+--- Insurance Claim for Patient: Sneha Dutta (UHID: HSP0045) ---
+Policy No: POL-166635899   Insurer: Star Health TPA   Type: Cashless
+Hospital: Unidoc Multi Speciality Hospital (NABH: NABH-XXXX-2025)
+Admission: 2025-07-27  |  Discharge: 2025-07-30
+Hospitalization Reason: Angioplasty (PTCA) with Stent - I21.9
+
+--- Diagnosis & Procedures ---
+I21.9 : Angioplasty (PTCA) with Stent by Dr. P. Reddy on 2025-07-28
+
+--- Itemized Bill (Authorized Amounts) ---
+Anesthesia: 11,251.50 (Approved: 11,251.50)
+ICU: 22,503.00 (Partial: 18,002.40)
+Investigations: 13,126.75 (Approved: 13,126.75)
+OT/Cath Lab: 33,754.50 (Approved: 33,754.50)
+Pharmacy & Consumables: 13,126.75 (Approved: 13,126.75)
+Surgery/Procedure: 93,762.50 (Approved: 93,762.50)
+
+--- Claim Summary ---
+Bill Subtotal: 187,525.00
+GST (5%): 9,376.25
+Discount: 20,000.00
+Total Claimed: 176,901.25
+Amount Paid by Patient: 50,000.00
+Original Amount Claimed from Insurer: 176,901.25
+Authorized Amount Claimed from Insurer: 183,024.40
+Balance Due from Insurer: 133,024.40
+Pre-Auth Status: Partial

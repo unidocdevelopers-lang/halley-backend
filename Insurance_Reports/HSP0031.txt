@@ -1,0 +1,27 @@
+--- Insurance Claim for Patient: Sneha Chopra (UHID: HSP0031) ---
+Policy No: POL-190076802   Insurer: Star Health TPA   Type: Cashless
+Hospital: Unidoc Multi Speciality Hospital (NABH: NABH-XXXX-2025)
+Admission: 2025-07-03  |  Discharge: 2025-07-07
+Hospitalization Reason: Community Acquired Pneumonia - J18.9
+
+--- Diagnosis & Procedures ---
+J18.9 : Community Acquired Pneumonia by Dr. P. Reddy on 2025-07-05
+
+--- Itemized Bill (Authorized Amounts) ---
+Investigations: 10,004.28 (Approved: 10,004.28)
+Miscellaneous: 5,002.14 (Approved: 5,002.14)
+Nursing: 5,835.83 (Approved: 5,835.83)
+Pharmacy & Consumables: 18,341.18 (Approved: 18,341.18)
+Procedure/Treatment: 29,179.15 (Approved: 29,179.15)
+Room Rent: 15,006.42 (Partial: 12,005.14)
+
+--- Claim Summary ---
+Bill Subtotal: 83,369.00
+GST (5%): 4,168.45
+Discount: 5,000.00
+Total Claimed: 82,537.45
+Amount Paid by Patient: 0.00
+Original Amount Claimed from Insurer: 82,537.45
+Authorized Amount Claimed from Insurer: 80,367.72
+Balance Due from Insurer: 80,367.72
+Pre-Auth Status: Partial

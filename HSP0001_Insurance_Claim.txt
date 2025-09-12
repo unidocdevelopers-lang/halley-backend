@@ -1,0 +1,25 @@
+--- Insurance Claim for Patient: Anita Singh (UHID: HSP0001) ---
+Policy No: POL-644854973   Insurer: Paramount   Type: Reimbursement
+Hospital: Unidoc Multi Speciality Hospital (NABH: NABH-XXXX-2025)
+Admission: 2025-07-26  |  Discharge: 2025-07-28
+Hospitalization Reason: Angioplasty (PTCA) with Stent - I21.9
+
+--- Diagnosis & Procedures ---
+I21.9 : Angioplasty (PTCA) with Stent by Dr. R. Iyer on 2025-07-27
+
+--- Itemized Bill ---
+Anesthesia: 10,169.64
+ICU: 20,339.28
+Investigations: 11,864.58
+OT/Cath Lab: 30,508.92
+Pharmacy & Consumables: 11,864.58
+Surgery/Procedure: 84,747.00
+
+--- Claim Summary ---
+Bill Subtotal: 169,494.00
+GST (5%): 8,474.70
+Discount: 0.00
+Total Claimed: 177,968.70
+Amount Paid by Patient: 50,000.00
+Amount Claimed from Insurer: 177,968.70
+Balance Due from Insurer: 127,968.70

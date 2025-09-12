@@ -1,0 +1,26 @@
+--- Insurance Claim for Patient: Sneha Sharma (UHID: HSP0026) ---
+Policy No: POL-338808762   Insurer: MediAssist   Type: Reimbursement
+Hospital: Unidoc Multi Speciality Hospital (NABH: NABH-XXXX-2025)
+Admission: 2025-08-30  |  Discharge: 2025-09-10
+Hospitalization Reason: NICU - Prematurity Care - P07.30
+
+--- Diagnosis & Procedures ---
+P07.30 : NICU - Prematurity Care by Dr. P. Reddy on 2025-09-04
+
+--- Itemized Bill (Authorized Amounts) ---
+Consultation/Nursing: 17,186.04 (Approved: 17,186.04)
+Investigations: 14,321.70 (Approved: 14,321.70)
+NICU Bed/Monitoring: 78,769.35 (Approved: 78,769.35)
+Pharmacy & Consumables: 25,779.06 (Approved: 25,779.06)
+Procedures/Lines: 7,160.85 (Approved: 7,160.85)
+
+--- Claim Summary ---
+Bill Subtotal: 143,217.00
+GST (5%): 7,160.85
+Discount: 10,000.00
+Total Claimed: 140,377.85
+Amount Paid by Patient: 0.00
+Original Amount Claimed from Insurer: 140,377.85
+Authorized Amount Claimed from Insurer: 143,217.00
+Balance Due from Insurer: 143,217.00
+Pre-Auth Status: Approved

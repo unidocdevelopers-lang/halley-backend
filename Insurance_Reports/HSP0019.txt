@@ -1,0 +1,28 @@
+--- Insurance Claim for Patient: Prakash Rao (UHID: HSP0019) ---
+Policy No: POL-120084195   Insurer: Star Health TPA   Type: Reimbursement
+Hospital: Unidoc Multi Speciality Hospital (NABH: NABH-XXXX-2025)
+Admission: 2025-08-22  |  Discharge: 2025-08-28
+Hospitalization Reason: Total Abdominal Hysterectomy (TAH) - N85.8
+
+--- Diagnosis & Procedures ---
+N85.8 : Total Abdominal Hysterectomy (TAH) by Dr. R. Iyer on 2025-08-25
+
+--- Itemized Bill (Authorized Amounts) ---
+Anesthesia: 12,194.49 (Partial: 9,755.59)
+Investigations: 13,936.56 (Approved: 13,936.56)
+Miscellaneous: 17,420.70 (Approved: 17,420.70)
+Nursing: 10,452.42 (Approved: 10,452.42)
+OT/Procedure: 60,972.45 (Approved: 60,972.45)
+Pharmacy & Consumables: 38,325.54 (Approved: 38,325.54)
+Room Rent: 20,904.84 (Partial: 16,723.87)
+
+--- Claim Summary ---
+Bill Subtotal: 174,207.00
+GST (5%): 8,710.35
+Discount: 5,000.00
+Total Claimed: 177,917.35
+Amount Paid by Patient: 20,000.00
+Original Amount Claimed from Insurer: 177,917.35
+Authorized Amount Claimed from Insurer: 167,587.13
+Balance Due from Insurer: 147,587.13
+Pre-Auth Status: Partial
