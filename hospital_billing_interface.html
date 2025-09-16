@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Billing System - Testing Interface</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            opacity: 0.9;
+            font-size: 1.1em;
+        }
+
+        .status-bar {
+            background: #f8f9fa;
+            padding: 15px 30px;
+            border-bottom: 1px solid #e9ecef;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .status-indicator {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .status-dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: #dc3545;
+            animation: pulse 2s infinite;
+        }
+
+        .status-dot.connected {
+            background: #28a745;
+        }
+
+        @keyframes pulse {
+            0% { opacity: 1; }
+            50% { opacity: 0.5; }
+            100% { opacity: 1; }
+        }
+
+        .main-content {
+            padding: 30px;
+        }
+
+        .test-section {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 25px;
+            margin-bottom: 25px;
+            border-left: 5px solid #007bff;
+        }
+
+        .test-section h2 {
+            color: #2c3e50;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .test-section h2::before {
+            content: "🧪";
+            font-size: 1.2em;
+        }
+
+        .file-upload {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .upload-area {
+            border: 2px dashed #007bff;
+            border-radius: 10px;
+            padding: 30px;
+            text-align: center;
+            background: white;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .upload-area:hover {
+            border-color: #0056b3;
+            background: #f8f9ff;
+        }
+
+        .upload-area.dragover {
+            border-color: #28a745;
+            background: #f8fff8;
+        }
+
+        .file-input {
+            display: none;
+        }
+
+        .upload-icon {
+            font-size: 3em;
+            margin-bottom: 15px;
+        }
+
+        .btn {
+            background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,123,255,0.3);
+        }
+
+        .btn:disabled {
+            background: #6c757d;
+            cursor: not-allowed;
+            transform: none;
+            box-shadow: none;
+        }
+
+        .btn.success {
+            background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+        }
+
+        .btn.danger {
+            background: linear-gradient(135deg, #dc3545 0%, #e74c3c 100%);
+        }
+
+        .results-area {
+            margin-top: 20px;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            border: 1px solid #e9ecef;
+            max-height: 500px;
+            overflow-y: auto;
+        }
+
+        .loading {
+            display: none;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #007bff;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 15px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .alert {
+            padding: 15px;
+            border-radius: 8px;
+            margin: 10px 0;
+        }
+
+        .alert-success {
+            background: #d4edda;
+            border: 1px solid #c3e6cb;
+            color: #155724;
+        }
+
+        .alert-error {
+            background: #f8d7da;
+            border: 1px solid #f5c6cb;
+            color: #721c24;
+        }
+
+        .patient-card {
+            background: white;
+            border: 1px solid #e9ecef;
+            border-radius: 8px;
+            margin: 10px 0;
+            padding: 15px;
+        }
+
+        .patient-header {
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 10px;
+            padding-bottom: 5px;
+            border-bottom: 1px solid #e9ecef;
+        }
+
+        .bill-details {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin: 10px 0;
+        }
+
+        .detail-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 8px 12px;
+            background: #f8f9fa;
+            border-radius: 5px;
+        }
+
+        .detail-label {
+            font-weight: 600;
+            color: #495057;
+        }
+
+        .detail-value {
+            color: #2c3e50;
+            font-weight: bold;
+        }
+
+        .charges-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        .charges-table th,
+        .charges-table td {
+            padding: 8px 12px;
+            text-align: left;
+            border-bottom: 1px solid #dee2e6;
+        }
+
+        .charges-table th {
+            background: #f8f9fa;
+            font-weight: 600;
+        }
+
+        .error-list {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            border-radius: 5px;
+            padding: 10px;
+            margin: 10px 0;
+        }
+
+        .error-item {
+            color: #856404;
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🏥 Hospital Billing System</h1>
+            <p>Testing Interface for Billing & Insurance Processing</p>
+        </div>
+
+        <div class="status-bar">
+            <div class="status-indicator">
+                <div class="status-dot" id="statusDot"></div>
+                <span id="statusText">Connecting to server...</span>
+            </div>
+            <div>
+                <button class="btn" onclick="checkServerHealth()">🔍 Check Server Status</button>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <!-- Billing Test Section -->
+            <div class="test-section">
+                <h2>Billing System Test</h2>
+                <p style="margin-bottom: 20px; color: #6c757d;">
+                    Upload an Excel file with billing data to test the billing engine. 
+                    Expected sheets: Charges_Itemized, Summary, Patient
+                </p>
+                
+                <div class="file-upload">
+                    <div class="upload-area" id="billingUpload">
+                        <div class="upload-icon">📊</div>
+                        <p>Click here or drag & drop your billing Excel file</p>
+                        <small style="color: #6c757d;">Supported formats: .xlsx, .xls</small>
+                        <input type="file" id="billingFile" class="file-input" accept=".xlsx,.xls">
+                    </div>
+                    <button class="btn" id="processBillingBtn" onclick="processBilling()" disabled>
+                        Process Billing Data
+                    </button>
+                </div>
+
+                <div class="loading" id="billingLoading">
+                    <div class="spinner"></div>
+                    <p>Processing billing data...</p>
+                </div>
+
+                <div class="results-area" id="billingResults" style="display: none;"></div>
+            </div>
+
+            <!-- Insurance Test Section -->
+            <div class="test-section">
+                <h2>Insurance Claims Test</h2>
+                <p style="margin-bottom: 20px; color: #6c757d;">
+                    Upload a ZIP file containing insurance claim Excel files to test the insurance processing system.
+                </p>
+                
+                <div class="file-upload">
+                    <div class="upload-area" id="insuranceUpload">
+                        <div class="upload-icon">🏥</div>
+                        <p>Click here or drag & drop your insurance ZIP file</p>
+                        <small style="color: #6c757d;">Supported format: .zip</small>
+                        <input type="file" id="insuranceFile" class="file-input" accept=".zip">
+                    </div>
+                    <button class="btn" id="processInsuranceBtn" onclick="processInsurance()" disabled>
+                        Process Insurance Claims
+                    </button>
+                </div>
+
+                <div class="loading" id="insuranceLoading">
+                    <div class="spinner"></div>
+                    <p>Processing insurance claims...</p>
+                </div>
+
+                <div class="results-area" id="insuranceResults" style="display: none;"></div>
+            </div>
+
+            <!-- Unit Tests Section -->
+            <div class="test-section">
+                <h2>Unit Tests</h2>
+                <p style="margin-bottom: 20px; color: #6c757d;">
+                    Run the automated unit tests to verify system functionality.
+                </p>
+                
+                <button class="btn success" onclick="runTests()">
+                    🧪 Run Unit Tests
+                </button>
+
+                <div class="loading" id="testsLoading">
+                    <div class="spinner"></div>
+                    <p>Running unit tests...</p>
+                </div>
+
+                <div class="results-area" id="testsResults" style="display: none;"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Configuration - UPDATE THIS WITH YOUR SERVER URL
+        const SERVER_URL = 'http://localhost:5000';
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', function() {
+            checkServerHealth();
+            setupFileUploads();
+        });
+
+        // Server health check
+        async function checkServerHealth() {
+            const statusDot = document.getElementById('statusDot');
+            const statusText = document.getElementById('statusText');
+            
+            try {
+                const response = await fetch(`${SERVER_URL}/api/health`);
+                const data = await response.json();
+                
+                if (response.ok && data.status === 'healthy') {
+                    statusDot.classList.add('connected');
+                    statusText.textContent = 'Server connected ✅';
+                } else {
+                    throw new Error('Server not healthy');
+                }
+            } catch (error) {
+                statusDot.classList.remove('connected');
+                statusText.textContent = 'Server disconnected ❌';
+                console.error('Health check failed:', error);
+            }
+        }
+
+        // Setup file upload handlers
+        function setupFileUploads() {
+            setupFileUpload('billingUpload', 'billingFile', 'processBillingBtn');
+            setupFileUpload('insuranceUpload', 'insuranceFile', 'processInsuranceBtn');
+        }
+
+        function setupFileUpload(uploadAreaId, fileInputId, buttonId) {
+            const uploadArea = document.getElementById(uploadAreaId);
+            const fileInput = document.getElementById(fileInputId);
+            const button = document.getElementById(buttonId);
+
+            uploadArea.addEventListener('click', () => fileInput.click());
+            
+            uploadArea.addEventListener('dragover', (e) => {
+                e.preventDefault();
+                uploadArea.classList.add('dragover');
+            });
+
+            uploadArea.addEventListener('dragleave', () => {
+                uploadArea.classList.remove('dragover');
+            });
+
+            uploadArea.addEventListener('drop', (e) => {
+                e.preventDefault();
+                uploadArea.classList.remove('dragover');
+                const files = e.dataTransfer.files;
+                if (files.length > 0) {
+                    fileInput.files = files;
+                    handleFileSelection(fileInput, button, uploadArea);
+                }
+            });
+
+            fileInput.addEventListener('change', () => {
+                handleFileSelection(fileInput, button, uploadArea);
+            });
+        }
+
+        function handleFileSelection(fileInput, button, uploadArea) {
+            if (fileInput.files.length > 0) {
+                const fileName = fileInput.files[0].name;
+                uploadArea.innerHTML = `
+                    <div class="upload-icon">✅</div>
+                    <p><strong>Selected:</strong> ${fileName}</p>
+                    <small>Click to change file</small>
+                `;
+                button.disabled = false;
+            }
+        }
+
+        // Process billing
+        async function processBilling() {
+            const fileInput = document.getElementById('billingFile');
+            const loading = document.getElementById('billingLoading');
+            const results = document.getElementById('billingResults');
+            const button = document.getElementById('processBillingBtn');
+
+            if (!fileInput.files.length) {
+                alert('Please select a billing file first!');
+                return;
+            }
+
+            showLoading(loading, results, button);
+
+            try {
+                const formData = new FormData();
+                formData.append('file', fileInput.files[0]);
+
+                const response = await fetch(`${SERVER_URL}/api/process-billing`, {
+                    method: 'POST',
+                    body: formData
+                });
+
+                const data = await response.json();
+                displayBillingResults(data, results);
+
+            } catch (error) {
+                displayError(`Error processing billing: ${error.message}`, results);
+            } finally {
+                hideLoading(loading, button);
+            }
+        }
+
+        // Process insurance
+        async function processInsurance() {
+            const fileInput = document.getElementById('insuranceFile');
+            const loading = document.getElementById('insuranceLoading');
+            const results = document.getElementById('insuranceResults');
+            const button = document.getElementById('processInsuranceBtn');
+
+            if (!fileInput.files.length) {
+                alert('Please select an insurance ZIP file first!');
+                return;
+            }
+
+            showLoading(loading, results, button);
+
+            try {
+                const formData = new FormData();
+                formData.append('file', fileInput.files[0]);
+
+                const response = await fetch(`${SERVER_URL}/api/process-insurance`, {
+                    method: 'POST',
+                    body: formData
+                });
+
+                const data = await response.json();
+                displayInsuranceResults(data, results);
+
+            } catch (error) {
+                displayError(`Error processing insurance: ${error.message}`, results);
+            } finally {
+                hideLoading(loading, button);
+            }
+        }
+
+        // Run tests
+        async function runTests() {
+            const loading = document.getElementById('testsLoading');
+            const results = document.getElementById('testsResults');
+
+            showLoading(loading, results);
+
+            try {
+                const response = await fetch(`${SERVER_URL}/api/run-tests`);
+                const data = await response.json();
+                displayTestResults(data, results);
+
+            } catch (error) {
+                displayError(`Error running tests: ${error.message}`, results);
+            } finally {
+                hideLoading(loading);
+            }
+        }
+
+        // Display functions
+        function displayBillingResults(data, resultsDiv) {
+            if (data.status === 'success') {
+                let html = `<div class="alert alert-success">✅ ${data.message}</div>`;
+                
+                Object.entries(data.data).forEach(([uhid, bill]) => {
+                    html += `
+                        <div class="patient-card">
+                            <div class="patient-header">
+                                👤 ${bill['Patient Name']} (UHID: ${uhid})
+                            </div>
+                            
+                            <div class="bill-details">
+                                <div class="detail-item">
+                                    <span class="detail-label">Subtotal:</span>
+                                    <span class="detail-value">₹${bill.Subtotal.toFixed(2)}</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-label">GST (5%):</span>
+                                    <span class="detail-value">₹${bill.GST.toFixed(2)}</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-label">Discount:</span>
+                                    <span class="detail-value">₹${bill.Discount.toFixed(2)}</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-label">Grand Total:</span>
+                                    <span class="detail-value">₹${bill['Grand Total'].toFixed(2)}</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-label">Balance Due:</span>
+                                    <span class="detail-value">₹${bill['Balance Due'].toFixed(2)}</span>
+                                </div>
+                            </div>
+                            
+                            ${bill.Charges.length > 0 ? `
+                                <table class="charges-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Head</th>
+                                            <th>Description</th>
+                                            <th>Amount</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        ${bill.Charges.map(charge => `
+                                            <tr>
+                                                <td>${charge.Head}</td>
+                                                <td>${charge.Description}</td>
+                                                <td>₹${charge.Amount.toFixed(2)}</td>
+                                            </tr>
+                                        `).join('')}
+                                    </tbody>
+                                </table>
+                            ` : ''}
+                            
+                            ${bill.Errors.length > 0 ? `
+                                <div class="error-list">
+                                    <strong>⚠️ Issues Found:</strong>
+                                    ${bill.Errors.map(error => `<div class="error-item">• ${error}</div>`).join('')}
+                                </div>
+                            ` : '<div class="alert alert-success">✅ No issues found in billing</div>'}
+                        </div>
+                    `;
+                });
+                
+                resultsDiv.innerHTML = html;
+            } else {
+                displayError(data.message, resultsDiv);
+            }
+        }
+
+        function displayInsuranceResults(data, resultsDiv) {
+            if (data.status === 'success') {
+                let html = `<div class="alert alert-success">✅ ${data.message}</div>`;
+                
+                data.data.forEach(claim => {
+                    html += `
+                        <div class="patient-card">
+                            <div class="patient-header">
+                                🏥 ${claim['Patient Name']} (UHID: ${claim.UHID})
+                            </div>
+                            
+                            <div class="bill-details">
+                                <div class="detail-item">
+                                    <span class="detail-label">Policy No:</span>
+                                    <span class="detail-value">${claim['Policy No']}</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-label">Insurer:</span>
+                                    <span class="detail-value">${claim.Insurer}</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-label">Bill Subtotal:</span>
+                                    <span class="detail-value">₹${claim['Bill Subtotal'].toFixed(2)}</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-label">GST:</span>
+                                    <span class="detail-value">₹${claim.GST.toFixed(2)}</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-label">Total Claimed:</span>
+                                    <span class="detail-value">₹${claim['Total Claimed'].toFixed(2)}</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-label">Patient Paid:</span>
+                                    <span class="detail-value">₹${claim['Amount Paid by Patient'].toFixed(2)}</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-label">Insurer Liable:</span>
+                                    <span class="detail-value">₹${claim['Amount Claimed from Insurer'].toFixed(2)}</span>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                });
+                
+                resultsDiv.innerHTML = html;
+            } else {
+                displayError(data.message, resultsDiv);
+            }
+        }
+
+        function displayTestResults(data, resultsDiv) {
+            let html = '';
+            
+            if (data.status === 'success') {
+                html = `<div class="alert alert-success">✅ All tests passed successfully!</div>`;
+            } else if (data.status === 'failed') {
+                html = `<div class="alert alert-error">❌ Some tests failed</div>`;
+            } else {
+                html = `<div class="alert alert-error">❌ Error running tests</div>`;
+            }
+            
+            if (data.stdout) {
+                html += `
+                    <div style="margin: 15px 0;">
+                        <h4>Test Output:</h4>
+                        <pre style="background: #f8f9fa; padding: 15px; border-radius: 5px; overflow-x: auto;">${data.stdout}</pre>
+                    </div>
+                `;
+            }
+            
+            if (data.stderr) {
+                html += `
+                    <div style="margin: 15px 0;">
+                        <h4>Errors:</h4>
+                        <pre style="background: #fff3cd; padding: 15px; border-radius: 5px; overflow-x: auto; color: #856404;">${data.stderr}</pre>
+                    </div>
+                `;
+            }
+            
+            resultsDiv.innerHTML = html;
+        }
+
+        function displayError(message, resultsDiv) {
+            resultsDiv.innerHTML = `<div class="alert alert-error">❌ ${message}</div>`;
+        }
+
+        function showLoading(loadingDiv, resultsDiv, button = null) {
+            loadingDiv.style.display = 'block';
+            resultsDiv.style.display = 'none';
+            if (button) button.disabled = true;
+        }
+
+        function hideLoading(loadingDiv, button = null) {
+            loadingDiv.style.display = 'none';
+            if (button) button.disabled = false;
+            document.getElementById('billingResults').style.display = 'block';
+            document.getElementById('insuranceResults').style.display = 'block';
+            document.getElementById('testsResults').style.display = 'block';
+        }
+
+        // Auto-refresh server status every 30 seconds
+        setInterval(checkServerHealth, 30000);
+    </script>
+</body>
+</html>

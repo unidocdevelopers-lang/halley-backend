@@ -5,3 +5,50 @@
 2025-09-08 15:30:55.185726,System,"Bill computed for charges: subtotal=537400, discount=56427.0, advance=0, balance_due=507843.0"
 2025-09-08 15:30:55.187502,System,"Bill computed for charges: subtotal=537400, discount=20000, advance=100000, balance_due=444270.0"
 2025-09-08 15:53:06.787595,System,Bill computed for patient Rajesh Kumar
+2025-09-16 10:50:42,966,ERROR,Billing error for UHID UH106847: Duplicate charge 'Private Bed' under head 'Bed Charges'. Kept 1, ignored 3 extra.
+2025-09-16 10:50:42,967,ERROR,Billing error for UHID UH106847: Duplicate charge 'Nursing Charges' under head 'Nursing'. Kept 1, ignored 3 extra.
+2025-09-16 10:50:42,971,ERROR,Billing error for UHID UH160831: Duplicate charge 'Semi-Private Bed' under head 'Bed Charges'. Kept 1, ignored 1 extra.
+2025-09-16 10:50:42,971,ERROR,Billing error for UHID UH160831: Duplicate charge 'Nursing Charges' under head 'Nursing'. Kept 1, ignored 1 extra.
+2025-09-16 10:50:42,974,ERROR,Billing error for UHID UH167415: Duplicate charge 'Private Bed' under head 'Bed Charges'. Kept 1, ignored 3 extra.
+2025-09-16 10:50:42,974,ERROR,Billing error for UHID UH167415: Duplicate charge 'Nursing Charges' under head 'Nursing'. Kept 1, ignored 3 extra.
+2025-09-16 10:50:42,977,INFO,Billing processed successfully for UHID UH200757
+2025-09-16 10:50:42,980,ERROR,Billing error for UHID UH232809: Duplicate charge 'Private Bed' under head 'Bed Charges'. Kept 1, ignored 5 extra.
+2025-09-16 10:50:42,980,ERROR,Billing error for UHID UH232809: Duplicate charge 'Nursing Charges' under head 'Nursing'. Kept 1, ignored 5 extra.
+2025-09-16 10:50:42,983,ERROR,Billing error for UHID UH255536: Duplicate charge 'General Bed' under head 'Bed Charges'. Kept 1, ignored 1 extra.
+2025-09-16 10:50:42,983,ERROR,Billing error for UHID UH255536: Duplicate charge 'Nursing Charges' under head 'Nursing'. Kept 1, ignored 1 extra.
+2025-09-16 10:50:42,985,INFO,Billing processed successfully for UHID UH271332
+2025-09-16 10:50:42,988,ERROR,Billing error for UHID UH319744: Duplicate charge 'Deluxe Room' under head 'Bed Charges'. Kept 1, ignored 4 extra.
+2025-09-16 10:50:42,988,ERROR,Billing error for UHID UH319744: Duplicate charge 'Nursing Charges' under head 'Nursing'. Kept 1, ignored 4 extra.
+2025-09-16 10:50:42,990,ERROR,Billing error for UHID UH362257: Duplicate charge 'Semi-Private Bed' under head 'Bed Charges'. Kept 1, ignored 1 extra.
+2025-09-16 10:50:42,990,ERROR,Billing error for UHID UH362257: Duplicate charge 'Nursing Charges' under head 'Nursing'. Kept 1, ignored 1 extra.
+2025-09-16 10:50:42,993,ERROR,Billing error for UHID UH362972: Duplicate charge 'Semi-Private Bed' under head 'Bed Charges'. Kept 1, ignored 4 extra.
+2025-09-16 10:50:42,993,ERROR,Billing error for UHID UH362972: Duplicate charge 'Nursing Charges' under head 'Nursing'. Kept 1, ignored 4 extra.
+2025-09-16 10:50:42,996,ERROR,Billing error for UHID UH373419: Duplicate charge 'Semi-Private Bed' under head 'Bed Charges'. Kept 1, ignored 3 extra.
+2025-09-16 10:50:42,996,ERROR,Billing error for UHID UH373419: Duplicate charge 'Nursing Charges' under head 'Nursing'. Kept 1, ignored 3 extra.
+2025-09-16 10:50:42,998,ERROR,Billing error for UHID UH381401: Duplicate charge 'General Bed' under head 'Bed Charges'. Kept 1, ignored 2 extra.
+2025-09-16 10:50:42,998,ERROR,Billing error for UHID UH381401: Duplicate charge 'Nursing Charges' under head 'Nursing'. Kept 1, ignored 2 extra.
+2025-09-16 10:50:43,001,ERROR,Billing error for UHID UH401894: Duplicate charge 'Deluxe Room' under head 'Bed Charges'. Kept 1, ignored 3 extra.
+2025-09-16 10:50:43,001,ERROR,Billing error for UHID UH401894: Duplicate charge 'Nursing Charges' under head 'Nursing'. Kept 1, ignored 3 extra.
+2025-09-16 10:50:43,003,ERROR,Billing error for UHID UH403159: Duplicate charge 'Deluxe Room' under head 'Bed Charges'. Kept 1, ignored 4 extra.
+2025-09-16 10:50:43,003,ERROR,Billing error for UHID UH403159: Duplicate charge 'Nursing Charges' under head 'Nursing'. Kept 1, ignored 4 extra.
+2025-09-16 10:50:43,006,ERROR,Billing error for UHID UH418336: Duplicate charge 'Private Bed' under head 'Bed Charges'. Kept 1, ignored 1 extra.
+2025-09-16 10:50:43,006,ERROR,Billing error for UHID UH418336: Duplicate charge 'Nursing Charges' under head 'Nursing'. Kept 1, ignored 1 extra.
+2025-09-16 10:50:43,008,ERROR,Billing error for UHID UH466799: Duplicate charge 'ICU Bed' under head 'Bed Charges'. Kept 1, ignored 3 extra.
+2025-09-16 10:50:43,008,ERROR,Billing error for UHID UH466799: Duplicate charge 'Nursing Charges' under head 'Nursing'. Kept 1, ignored 3 extra.
+2025-09-16 10:50:43,011,INFO,Billing processed successfully for UHID UH518521
+2025-09-16 10:50:43,014,ERROR,Billing error for UHID UH617123: Duplicate charge 'Semi-Private Bed' under head 'Bed Charges'. Kept 1, ignored 5 extra.
+2025-09-16 10:50:43,014,ERROR,Billing error for UHID UH617123: Duplicate charge 'Nursing Charges' under head 'Nursing'. Kept 1, ignored 5 extra.
+2025-09-16 10:50:43,016,ERROR,Billing error for UHID UH629742: Duplicate charge 'Semi-Private Bed' under head 'Bed Charges'. Kept 1, ignored 4 extra.
+2025-09-16 10:50:43,016,ERROR,Billing error for UHID UH629742: Duplicate charge 'Nursing Charges' under head 'Nursing'. Kept 1, ignored 4 extra.
+2025-09-16 10:50:43,019,ERROR,Billing error for UHID UH687091: Duplicate charge 'Semi-Private Bed' under head 'Bed Charges'. Kept 1, ignored 5 extra.
+2025-09-16 10:50:43,019,ERROR,Billing error for UHID UH687091: Duplicate charge 'Nursing Charges' under head 'Nursing'. Kept 1, ignored 5 extra.
+2025-09-16 10:50:43,021,ERROR,Billing error for UHID UH827452: Duplicate charge 'Semi-Private Bed' under head 'Bed Charges'. Kept 1, ignored 2 extra.
+2025-09-16 10:50:43,021,ERROR,Billing error for UHID UH827452: Duplicate charge 'Nursing Charges' under head 'Nursing'. Kept 1, ignored 2 extra.
+2025-09-16 10:50:43,024,ERROR,Billing error for UHID UH834541: Duplicate charge 'Semi-Private Bed' under head 'Bed Charges'. Kept 1, ignored 4 extra.
+2025-09-16 10:50:43,024,ERROR,Billing error for UHID UH834541: Duplicate charge 'Nursing Charges' under head 'Nursing'. Kept 1, ignored 4 extra.
+2025-09-16 10:50:43,026,ERROR,Billing error for UHID UH842007: Duplicate charge 'General Bed' under head 'Bed Charges'. Kept 1, ignored 5 extra.
+2025-09-16 10:50:43,026,ERROR,Billing error for UHID UH842007: Duplicate charge 'Nursing Charges' under head 'Nursing'. Kept 1, ignored 5 extra.
+2025-09-16 10:50:43,029,ERROR,Billing error for UHID UH900570: Duplicate charge 'Semi-Private Bed' under head 'Bed Charges'. Kept 1, ignored 5 extra.
+2025-09-16 10:50:43,029,ERROR,Billing error for UHID UH900570: Duplicate charge 'Nursing Charges' under head 'Nursing'. Kept 1, ignored 5 extra.
+2025-09-16 10:50:43,031,ERROR,Billing error for UHID UH944209: Duplicate charge 'Semi-Private Bed' under head 'Bed Charges'. Kept 1, ignored 5 extra.
+2025-09-16 10:50:43,032,ERROR,Billing error for UHID UH944209: Duplicate charge 'Nursing Charges' under head 'Nursing'. Kept 1, ignored 5 extra.

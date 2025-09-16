@@ -1,6 +1,6 @@
 # billing_adapter.py
 import pandas as pd
-from billing_engine import BillingEngine
+from src.billing_engine import BillingEngine
 import logging
 
 def log_error(message):
